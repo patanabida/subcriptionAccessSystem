@@ -6,3 +6,4 @@
 - The Dashboard Page, where users can view their current subscription plan, upgrade it, and access exclusive content.
 
 #### Github link :[link](https://github.com/patanabida/subcriptionAccessSystem)
+#### Deployed link: [link](https://patanabida.github.io/subcriptionAccessSystem/)
