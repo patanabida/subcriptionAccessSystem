@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registartion</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h3>Subscription Access System</h3>
+        </div>
+        <button class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <div id="login">
+            <h3>Login</h3>
+            <input type="email" id="login-email" placeholder="Email">
+            <input type="password" id="login-password" placeholder="Password">
+            <button onclick="login()">Login</button>
+        </div>
+        
+        <p id="message"></p>
+    </div>
+    <footer>
+        <p>&copy; 2025 Subscription Access System. All rights reserved.</p>
+    </footer>
+
+    <script src="./scripts/scripts.js"></script>
+   
+</body>
+</html>
